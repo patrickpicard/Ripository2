@@ -1,0 +1,8 @@
+<?php
+
+session_destroy();
+$titre="Déconnexion";
+
+echo '<div class="ligne">Vous êtes à présent déconnecté </div>';
+header("refresh:1;url=Routes.php");
+?>

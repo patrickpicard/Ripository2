@@ -1,0 +1,482 @@
+/*------------------Header------------------*/
+
+#header {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    background-color: rgb(232, 211, 169);
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    background-color: rgb(103, 210, 252);
+}
+
+a {
+    color: black;
+    text-decoration:none
+}
+
+.imgDeco {
+    width:1vw;
+    height: 1vw;
+    margin-left: 0.1vw;
+}
+
+.decoButton {
+    display: flex;
+    border: solid black 1px;
+    border-radius: 10px 100px / 120px;
+    box-shadow: 5px 5px 2.5px 0px;
+    width: 7vw;
+    height: 1.6vw;
+    background-color: rgb(151, 149, 104);
+    align-items: flex-end;
+    margin-left:65vw;
+    margin-top: 1vw;
+    align-items: center;
+    justify-content: center;
+    font: Arial;
+}
+
+.decoButton:hover{
+    background-color: rgb(114, 62, 20);
+    transition-duration: 0.5s;
+}
+
+.name{
+    display: flex;
+    width: 12vw;
+    margin-left: 66vw;
+    margin-top: 1vw;
+}
+
+
+/*------------------Body------------------*/
+
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    height: 50vw;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+}
+
+.contener{
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    height: 75vw;
+    padding-bottom: 10vw;
+    background-color:rgb(232, 211, 169);
+    align-items: center;
+}
+
+#divSuppr{
+    visibility: hidden;
+    position: absolute;
+    width: 20vw;
+    height: 10vw;
+    border: 1px solid black;
+    margin-top: 15vw; 
+    background-color: rgb(171, 203, 206)
+}
+/*.contener>.title{             n'influt pas sur le 2nd titre
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}*/
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.img1{
+    width: 3vw;
+    height:3vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+.img1:hover{
+    transform: translateX(50px);
+}
+
+#title{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2vw;
+    width: 65vw;
+    height: auto;
+    background-color: rgb(151, 149, 104)/*linear-gradient(blue, green/*rgb(151, 149, 104))*/;
+    border: solid black 1px;
+    border-radius: 10px 100px / 120px;
+    box-shadow: 10px 10px 5px 0px;
+    text-align: center;
+    font-size: 0.7em;
+}
+
+/*-------------fin body-------------------*/
+
+/*-------------contenu 1er page-----------*/
+.title{
+    width: 30vw;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+
+.underTitle{
+    width: 100%;
+    align-items: center;
+}
+
+.CRTask{
+    margin-left: 1vw;
+    width: 28vw;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+
+.formConnection{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    justify-content: center;
+    margin-top: 6vw;
+    border: 2px solid black;
+    border-radius: 100px 100px / 100px;
+    box-shadow: 10px 10px 5px 0px;
+    background-color: rgb(151, 149, 104);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    text-align: center;
+    padding: 0.1vw;
+}
+
+label{
+    margin-top: 1vw;
+    margin-bottom: 0.5vw;
+}
+
+.button{
+    display: flex;
+    width: 7vw;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.3vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+select{
+    width: 7.8vw;
+}
+
+input{
+    width: 7.8vw;
+}
+
+
+.ligne{
+    /*padding: 1vw;*/
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+}
+a:hover{
+    color: rgba(122, 123, 124, 0.8);
+}
+
+#divSuppr{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center ;
+}
+
+
+.suppr:hover{
+    color: rgba(122, 123, 124, 0.8);
+}
+
+
+/*-----------------fin 1er page---------------*/
+h1{
+    text-align: center;
+    font-family: Arial;
+}
+
+.dailyTask {
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    height: auto;
+    border: solid black 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vw;
+    
+}
+.dailyTask2
+{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    max-height: 25vw;    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vw;
+    overflow: auto ;
+}
+
+#enteteDaily{
+    display: flex;
+    flex-direction: row;
+    width: 65vw;
+    height: 2vw;
+    border-bottom: solid 1px;
+    font-size: 1.3vw;
+}
+
+.enteteDescription{
+    height: 2vw;
+    display: flex;
+    width: 12vw;
+    justify-content: center;
+    align-items: center;
+    border-right: solid black 1px;
+    font-weight: bold;
+}
+
+    @keyframes fadein {
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-moz-keyframes fadein { /* sur Firefox */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-webkit-keyframes fadein { /* sur Safari et Chrome */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity:1;
+        }
+    }
+    @-o-keyframes fadein { /* sur Opera */
+        from {
+            opacity:0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+
+
+
+.enteteCategory{
+    height: 2vw;
+    display: flex;
+    width: 10vw;
+    justify-content: center;
+    align-items: center;
+    border-right: solid black 1px;
+    font-weight: bold;
+}
+
+.enteteDate{
+    height: 2vw;
+    display: flex;
+    width: 8vw;
+    justify-content: center;
+    align-items: center;
+    border-right: solid black 1px;
+    font-weight: bold;
+}
+
+.enteteComment{
+    height: 2vw;
+    display: flex;
+    width: 17vw;
+    justify-content: center;
+    align-items: center;
+    border-right: solid black 1px;
+    font-weight: bold;
+}
+
+.enteteCRUD{
+    height: 2vw;
+    display: flex;
+    width: 18vw;
+    justify-content: center;
+}
+.buttonCrud{
+    width: 9vw;
+}
+
+.resultTask{
+    display: flex;
+    flex-direction: row;
+    width: 65vw;
+    height: auto;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.description{
+    display: flex;
+    width: 12vw;
+    justify-content: center;
+    border-right: solid black 1px;
+}
+
+.categoryB{
+    display: flex;
+    width: 10vw;
+    justify-content: center;
+    border-right: solid black 1px;
+}
+
+.dateB{
+    display: flex;
+    width: 8vw;
+    justify-content: center;
+    border-right: solid black 1px;
+}
+
+.commentB{
+    display: flex;
+    width: 17vw;
+    justify-content: center;
+    border-right: solid black 1px;
+}
+
+.CRUDB{
+    display: flex;
+    width: 18vw;
+    justify-content: space-evenly;
+}
+
+.divDailyTaskButton {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+    width: 65vw;
+    height: auto;
+    justify-content: space-around;
+}
+
+.dailyTaskButton{
+    display: flex;
+    background-color:rgb(151, 149, 104);
+    border: solid black 1px;
+    border-radius: 10px 100px / 120px;
+    box-shadow: 5px 5px 2.5px 0px;;
+    align-items: center;
+    justify-content: center;
+    font: Arial 1em;
+    width: 10vw;
+    height: 1.6vw;
+}
+
+.dailyTaskButton:hover{
+    background-color: rgb(114, 62, 20);
+    transition-duration: 0.5s;
+}
+
+.viewAll {
+    display: none;
+    width: 65vw;
+    height: 20vw;
+    border: solid black 1px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+}
+
+.buttonCrud{
+    width: 9vw;
+}
+
+.index {
+    display: flex;
+    width: 65vw;
+    height: 1.5vw;
+    border-bottom: solid black 1px;
+}
+
+/*---------------items Index---------------*/
+
+.date{
+    display: flex;
+    flex:1;
+    border-right: solid black 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.category{
+    display: flex;
+    flex:1;
+    border-right: solid black 1px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.libelle{
+    display: flex;
+    flex:1;
+    border-right: solid black 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment{
+    display: flex;
+    flex:4;
+    border-right: solid black 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.CRUD {
+    
+    display: flex;
+    flex:3;
+}
