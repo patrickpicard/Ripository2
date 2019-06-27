@@ -1,11 +1,15 @@
 /*------------------Header------------------*/
 
+
+/* test ultime /*/
+
 #header {
     display: flex;
     flex-direction: column;
     width: 75vw;
     background-color: rgb(232, 211, 169);
 }
+
 .header {
     display: flex;
     flex-direction: column;
@@ -15,11 +19,11 @@
 
 a {
     color: black;
-    text-decoration:none
+    text-decoration: none
 }
 
 .imgDeco {
-    width:1vw;
+    width: 1vw;
     height: 1vw;
     margin-left: 0.1vw;
 }
@@ -33,19 +37,19 @@ a {
     height: 1.6vw;
     background-color: rgb(151, 149, 104);
     align-items: flex-end;
-    margin-left:65vw;
+    margin-left: 65vw;
     margin-top: 1vw;
     align-items: center;
     justify-content: center;
     font: Arial;
 }
 
-.decoButton:hover{
+.decoButton:hover {
     background-color: rgb(114, 62, 20);
     transition-duration: 0.5s;
 }
 
-.name{
+.name {
     display: flex;
     width: 12vw;
     margin-left: 66vw;
@@ -55,12 +59,13 @@ a {
 
 /*------------------Body------------------*/
 
-label{
+label {
     display: flex;
     justify-content: center;
     align-items: center;
     align-self: center;
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -72,39 +77,41 @@ body {
     font-size: 1vw;
 }
 
-.contener{
+.contener {
     display: flex;
     flex-direction: column;
     width: 75vw;
     height: 75vw;
     padding-bottom: 10vw;
-    background-color:rgb(232, 211, 169);
+    background-color: rgb(232, 211, 169);
     align-items: center;
 }
 
-#divSuppr{
+#divSuppr {
     visibility: hidden;
     position: absolute;
     width: 20vw;
     height: 10vw;
     border: 1px solid black;
-    margin-top: 15vw; 
+    margin-top: 15vw;
     background-color: rgb(171, 203, 206)
 }
+
+
 /*.contener>.title{             n'influt pas sur le 2nd titre
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
 }*/
 
-img{
+img {
     width: 100%;
     height: 100%;
 }
 
-.img1{
+.img1 {
     width: 3vw;
-    height:3vw;
+    height: 3vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
@@ -114,18 +121,19 @@ img{
     transition-timing-function: ease;
 }
 
-.img1:hover{
+.img1:hover {
     transform: translateX(50px);
 }
 
-#title{
+#title {
     display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2vw;
     width: 65vw;
     height: auto;
-    background-color: rgb(151, 149, 104)/*linear-gradient(blue, green/*rgb(151, 149, 104))*/;
+    background-color: rgb(151, 149, 104)/*linear-gradient(blue, green/*rgb(151, 149, 104))*/
+    ;
     border: solid black 1px;
     border-radius: 10px 100px / 120px;
     box-shadow: 10px 10px 5px 0px;
@@ -133,28 +141,31 @@ img{
     font-size: 0.7em;
 }
 
+
 /*-------------fin body-------------------*/
 
+
 /*-------------contenu 1er page-----------*/
-.title{
+
+.title {
     width: 30vw;
     align-items: center;
     border-bottom: 1px solid;
 }
 
-.underTitle{
+.underTitle {
     width: 100%;
     align-items: center;
 }
 
-.CRTask{
+.CRTask {
     margin-left: 1vw;
     width: 28vw;
     align-items: center;
     border-bottom: 1px solid;
 }
 
-.formConnection{
+.formConnection {
     display: flex;
     flex-direction: column;
     width: 30vw;
@@ -171,17 +182,18 @@ img{
     flex-direction: column;
     align-items: center;
 }
-h3{
+
+h3 {
     text-align: center;
     padding: 0.1vw;
 }
 
-label{
+label {
     margin-top: 1vw;
     margin-bottom: 0.5vw;
 }
 
-.button{
+.button {
     display: flex;
     width: 7vw;
     flex-direction: row;
@@ -191,40 +203,40 @@ label{
     margin-bottom: 1vw;
 }
 
-select{
+select {
     width: 7.8vw;
 }
 
-input{
+input {
     width: 7.8vw;
 }
 
-
-.ligne{
+.ligne {
     /*padding: 1vw;*/
     margin-top: 4vw;
     margin-bottom: 2vw;
 }
-a:hover{
+
+a:hover {
     color: rgba(122, 123, 124, 0.8);
 }
 
-#divSuppr{
+#divSuppr {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center ;
+    text-align: center;
 }
 
-
-.suppr:hover{
+.suppr:hover {
     color: rgba(122, 123, 124, 0.8);
 }
 
 
 /*-----------------fin 1er page---------------*/
-h1{
+
+h1 {
     text-align: center;
     font-family: Arial;
 }
@@ -238,21 +250,20 @@ h1{
     margin-left: auto;
     margin-right: auto;
     margin-top: 3vw;
-    
 }
-.dailyTask2
-{
+
+.dailyTask2 {
     display: flex;
     flex-direction: column;
     width: auto;
-    max-height: 25vw;    
+    max-height: 25vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: 3vw;
-    overflow: auto ;
+    overflow: auto;
 }
 
-#enteteDaily{
+#enteteDaily {
     display: flex;
     flex-direction: row;
     width: 65vw;
@@ -261,7 +272,7 @@ h1{
     font-size: 1.3vw;
 }
 
-.enteteDescription{
+.enteteDescription {
     height: 2vw;
     display: flex;
     width: 12vw;
@@ -271,43 +282,46 @@ h1{
     font-weight: bold;
 }
 
-    @keyframes fadein {
-        from {
-            opacity:0;
-        }
-        to {
-            opacity:1;
-        }
+@keyframes fadein {
+    from {
+        opacity: 0;
     }
-    @-moz-keyframes fadein { /* sur Firefox */
-        from {
-            opacity:0;
-        }
-        to {
-            opacity:1;
-        }
+    to {
+        opacity: 1;
     }
-    @-webkit-keyframes fadein { /* sur Safari et Chrome */
-        from {
-            opacity:0;
-        }
-        to {
-            opacity:1;
-        }
+}
+
+@-moz-keyframes fadein {
+    /* sur Firefox */
+    from {
+        opacity: 0;
     }
-    @-o-keyframes fadein { /* sur Opera */
-        from {
-            opacity:0;
-        }
-        to {
-            opacity: 1;
-        }
+    to {
+        opacity: 1;
     }
+}
 
+@-webkit-keyframes fadein {
+    /* sur Safari et Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
+@-o-keyframes fadein {
+    /* sur Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
-
-.enteteCategory{
+.enteteCategory {
     height: 2vw;
     display: flex;
     width: 10vw;
@@ -317,7 +331,7 @@ h1{
     font-weight: bold;
 }
 
-.enteteDate{
+.enteteDate {
     height: 2vw;
     display: flex;
     width: 8vw;
@@ -327,7 +341,7 @@ h1{
     font-weight: bold;
 }
 
-.enteteComment{
+.enteteComment {
     height: 2vw;
     display: flex;
     width: 17vw;
@@ -337,17 +351,18 @@ h1{
     font-weight: bold;
 }
 
-.enteteCRUD{
+.enteteCRUD {
     height: 2vw;
     display: flex;
     width: 18vw;
     justify-content: center;
 }
-.buttonCrud{
+
+.buttonCrud {
     width: 9vw;
 }
 
-.resultTask{
+.resultTask {
     display: flex;
     flex-direction: row;
     width: 65vw;
@@ -356,35 +371,35 @@ h1{
     border-bottom: 1px solid;
 }
 
-.description{
+.description {
     display: flex;
     width: 12vw;
     justify-content: center;
     border-right: solid black 1px;
 }
 
-.categoryB{
+.categoryB {
     display: flex;
     width: 10vw;
     justify-content: center;
     border-right: solid black 1px;
 }
 
-.dateB{
+.dateB {
     display: flex;
     width: 8vw;
     justify-content: center;
     border-right: solid black 1px;
 }
 
-.commentB{
+.commentB {
     display: flex;
     width: 17vw;
     justify-content: center;
     border-right: solid black 1px;
 }
 
-.CRUDB{
+.CRUDB {
     display: flex;
     width: 18vw;
     justify-content: space-evenly;
@@ -401,12 +416,13 @@ h1{
     justify-content: space-around;
 }
 
-.dailyTaskButton{
+.dailyTaskButton {
     display: flex;
-    background-color:rgb(151, 149, 104);
+    background-color: rgb(151, 149, 104);
     border: solid black 1px;
     border-radius: 10px 100px / 120px;
-    box-shadow: 5px 5px 2.5px 0px;;
+    box-shadow: 5px 5px 2.5px 0px;
+    ;
     align-items: center;
     justify-content: center;
     font: Arial 1em;
@@ -414,7 +430,7 @@ h1{
     height: 1.6vw;
 }
 
-.dailyTaskButton:hover{
+.dailyTaskButton:hover {
     background-color: rgb(114, 62, 20);
     transition-duration: 0.5s;
 }
@@ -429,7 +445,7 @@ h1{
     margin-top: 1vw;
 }
 
-.buttonCrud{
+.buttonCrud {
     width: 9vw;
 }
 
@@ -440,43 +456,42 @@ h1{
     border-bottom: solid black 1px;
 }
 
+
 /*---------------items Index---------------*/
 
-.date{
+.date {
     display: flex;
-    flex:1;
+    flex: 1;
     border-right: solid black 1px;
     justify-content: center;
     align-items: center;
 }
 
-.category{
+.category {
     display: flex;
-    flex:1;
-    border-right: solid black 1px;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.libelle{
-    display: flex;
-    flex:1;
+    flex: 1;
     border-right: solid black 1px;
     justify-content: center;
     align-items: center;
 }
 
-.comment{
+.libelle {
     display: flex;
-    flex:4;
+    flex: 1;
+    border-right: solid black 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.comment {
+    display: flex;
+    flex: 4;
     border-right: solid black 1px;
     justify-content: center;
     align-items: center;
 }
 
 .CRUD {
-    
     display: flex;
-    flex:3;
+    flex: 3;
 }
